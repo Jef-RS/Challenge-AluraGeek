@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/home/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/home/produtos.css">
+    <link rel="stylesheet" href="./assets/css/home/rodape.css">
     <title>Bem-vindo ao AluraGeek</title>
 </head>
 <body>
     <header class="cabecalho">
         <section class="cabecalho__principal">
             <div class="cabecalho__principal__container">
-                <img src="./assets/img/Cabecalho/Logo.svg" alt="Logo do site AluraGeek">
+                <a href="./home.html"><img src="./assets/img/Cabecalho/Logo.svg" alt="Logo do site AluraGeek"></a>
                 <input class="cabecalho__pesquisa" type="search" placeholder="O que deseja encontrar?" id="barra-pesquisa">
             </div>
-            <input class="cabecalho__login botao__transparente--light" type="submit" value="Login">
+            <input class="cabecalho__login botao__transparente--light" type="submit" value="Login" data-login>
         </section>
 
         <section class="cabecalho__banner">
@@ -26,5 +28,195 @@
             </div>
         </section>
     </header>
+
+    <main class="produtos">
+        <section class="produtos__starwars">
+            <div class="produtos__container">
+                <div class="produtos__container_cabecalho">
+                    <h2>Star Wars</h2>
+                    <div class="produtos__link__container">
+                        <a class="produtos__link links__azul" href="#">Ver tudo <img class="links__azul" src="./assets/img/arrow.svg"></a>
+                    </div>
+                </div>
+
+                <div class="produtos__conteudo">
+                    <div class="produtos__conteudo__container">
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/StarWars/produto1.jpg" alt="Imagem de um produto do StarWars">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/StarWars/produto2.jpg" alt="Imagem de um produto do StarWars">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/StarWars/produto3.jpg" alt="Imagem de um produto do StarWars">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/StarWars/produto4.jpg" alt="Imagem de um produto do StarWars">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/StarWars/produto5.jpg" alt="Imagem de um produto do StarWars">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/StarWars/produto6.jpg" alt="Imagem de um produto do StarWars">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="produtos__consoles">
+            <div class="produtos__container">
+                <div class="produtos__container_cabecalho">
+                    <h2>Consoles</h2>
+                    <div class="produtos__link__container">
+                        <a class="produtos__link links__azul" href="#">Ver tudo <img class="links__azul" src="./assets/img/arrow.svg"></a>
+                    </div>
+                </div>
+
+                <div class="produtos__conteudo">
+                    <div class="produtos__conteudo__container">
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/Consoles/produto1.jpg" alt="Imagem de um produto do Consoles">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/Consoles/produto2.jpg" alt="Imagem de um produto do Consoles">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/Consoles/produto3.jpg" alt="Imagem de um produto do Consoles">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/Consoles/produto4.jpg" alt="Imagem de um produto do Consoles">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/Consoles/produto5.jpg" alt="Imagem de um produto do Consoles">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/Consoles/produto6.jpg" alt="Imagem de um produto do Consoles">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="produtos__diversos">
+            <div class="produtos__container">
+                <div class="produtos__container_cabecalho">
+                    <h2>Diversos</h2>
+                    <div class="produtos__link__container">
+                        <a class="produtos__link links__azul" href="#">Ver tudo <img class="links__azul" src="./assets/img/arrow.svg"></a>
+                    </div>
+                </div>
+
+                <div class="produtos__conteudo">
+                    <div class="produtos__conteudo__container">
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/Diversos/produto1.jpg" alt="Imagem de um produto do Diversos">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/Diversos/produto2.jpg" alt="Imagem de um produto do Diversos">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/Diversos/produto3.jpg" alt="Imagem de um produto do Diversos">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/Diversos/produto4.jpg" alt="Imagem de um produto do Diversos">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/Diversos/produto5.jpg" alt="Imagem de um produto do Diversos">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                        <a class="produtos__conteudo__link" href="#">
+                            <img class="produtos__conteudo__imagem" src="./assets/img/Diversos/produto6.jpg" alt="Imagem de um produto do Diversos">
+                            <p class="produtos__texto">Produto XYZ</p>
+                            <p class="produtos__preco">R$ 60,00</p>
+                            <p class="links__azul">Ver produto</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <section class="secao__contato">
+            <div class="secao__contato__container">
+                <img src="./assets/img/Cabecalho/Logo.svg" alt="Logo do site AluraGeek">
+                <nav>
+                    <ul class="secao__contato__sobre">
+                        <li><a class="contato__sobre__texto" href="#">Quem somos nós</a></li>
+                        <li><a class="contato__sobre__texto" href="#">Política de privacidade</a></li>
+                        <li><a class="contato__sobre__texto" href="#">Programa fidelidade</a></li>
+                        <li><a class="contato__sobre__texto" href="#">Nossas lojas</a></li>
+                        <li><a class="contato__sobre__texto" href="#">Quero ser franqueado</a></li>
+                        <li><a class="contato__sobre__texto" href="#">Anuncie aqui</a></li>
+                    </ul>
+                </nav>
+                <form class="secao__contato__formulario">
+                    <label class="secao__contato__label" for="Nome">Fale Conosco</label>
+                    <input class="secao__contato__nome" type="text" placeholder="Nome">
+                    <textarea class="secao__contato__mensagem" placeholder="Escreva sua mensagem." id="textarea" cols="30" rows="10"></textarea>
+                    <input class="secao__contato__botao botao__azul--light" type="submit" value="Enviar mensagem">
+                </form>
+            </div>
+        </section>
+
+        <section class="secao__copyright">
+            <div class="secao__copyright__container">
+                <p class="secao__copyright__texto">Desenvolvido por <a class="github botao__azul--light" target="_blank" href="https://github.com/Jef-RS">Jeferson-RS</a> 2023</p>
+            </div>
+        </section>
+    </footer>
+
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>

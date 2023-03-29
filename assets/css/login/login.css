@@ -1,0 +1,18 @@
+.login {
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-principal);
+}
+
+.login__formulario {
+    display: flex;
+    flex-direction: column;
+    width: 323px;
+    gap: 24px;
+}
+
+.login__formulario__label {
+    font-size: 18px;
+    font-weight: var(--superbold-texto);
+    text-align: center;
+}

@@ -4,7 +4,9 @@
     --azul-base: #2A7AE4;
     --azul-hover: #5595E9;
     --transparente-hover: #D4E4FA;
+    --bg-contato: #EAF2FD;
     --branco-texto: #fff;
+    --bg-principal: #E5E5E5;
     --cinza-texto: #464646;
     --light-texto: 400;
     --bold-texto: 600;
@@ -54,4 +56,18 @@ body {
 .botao__transparente--bold {
     font-size: 14px;
     font-weight: var(--bold-texto);
+}
+
+.botao__azul--light:active ,.botao__transparente--light:active {
+    transform: scale(0.9);
+}
+
+.links__azul {
+    text-decoration: none;
+    color: var(--azul-base);
+    font-weight: var(--superbold-texto);
+}
+
+.links__azul:hover {
+    filter: brightness(0) saturate(100%) invert(52%) sepia(60%) saturate(540%) hue-rotate(176deg) brightness(97%) contrast(88%);
 }

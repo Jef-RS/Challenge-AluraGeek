@@ -1,7 +1,3 @@
-.cabecalho {
-    height: calc(50vw - 57px);
-}
-
 .cabecalho__principal {
     display: flex;
     justify-content: space-between;
@@ -24,14 +20,14 @@
     outline: none;
     border: none;
     background-color: #F5F5F5;
-    background-image: url(../img/Cabecalho/search.svg);
+    background-image: url(../../img/Cabecalho/search.svg);
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: center;
 }
 
 .cabecalho__banner {
-    background: url(../img/Cabecalho/banner.png) no-repeat;
+    background: url(../../img/Cabecalho/banner.png) no-repeat;
     height: 352px;
     background-position: center;
     background-size: cover;
