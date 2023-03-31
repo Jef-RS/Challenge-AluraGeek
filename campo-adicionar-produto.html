@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/home/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/formulario-produtos/formulario.css">
     <link rel="stylesheet" href="./assets/css/home/rodape.css">
-    <link rel="stylesheet" href="./assets/css/login/login.css">
-    <title>Login - AluraGeek</title>
+    <title>Adicionar produtos - AluraGeek</title>
 </head>
 <body>
     <header class="cabecalho">
@@ -17,15 +17,19 @@
                 <img class="cabecalho__principal__home" src="./assets/img/Cabecalho/Logo.svg" alt="Logo do site AluraGeek" data-home>
                 <input class="cabecalho__pesquisa" type="search" placeholder="O que deseja encontrar?" id="barra-pesquisa">
             </div>
+            <input class="cabecalho__login botao__transparente--light" type="submit" value="Menu administrador" data-botao-administrador>
         </section>
     </header>
 
-    <main class="login">
-        <form class="login__formulario" data-enviar>
-            <label class="login__formulario__label" for="login-formulario">Iniciar Sessão</label>
-            <input class="login__formulario__input" type="text" autofocus data-email-form placeholder="Escreva seu email">
-            <input class="login__formulario__input" type="password" data-senha-form placeholder="Escreva sua senha">
-            <input class="login__formulario__botao botao__azul--light" type="submit" value="Enviar">
+    <main class="formulario">
+        <form class="formulario__produto">
+            <label class="formulario__label">Adicionar novo produto</label>
+            <input class="formulario__input" type="text" autofocus placeholder="URL da imagem">
+            <input class="formulario__input" type="text" placeholder="Categoria">
+            <input class="formulario__input" type="text" placeholder="Nome do produto">
+            <input class="formulario__input" type="text" placeholder="Preço do produto">
+            <textarea class="formulario__textarea" placeholder="Descrição do produto" id="" cols="30" rows="10"></textarea>
+            <input class="formulario__botao botao__azul--light" type="submit" value="Adicionar produto">
         </form>
     </main>
 
@@ -59,6 +63,6 @@
         </section>
     </footer>
 
-    <script src="./assets/js/login.js"></script>
+    <script src="./assets/js/campo-adicionar-produto.js"></script>
 </body>
 </html>

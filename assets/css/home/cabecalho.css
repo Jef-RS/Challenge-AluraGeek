@@ -12,6 +12,14 @@
     gap: 32px;
 }
 
+.cabecalho__principal__home {
+    cursor: pointer;
+}
+
+.cabecalho__principal__home:hover {
+    filter: brightness(0) saturate(100%) invert(85%) sepia(18%) saturate(324%) hue-rotate(183deg) brightness(102%) contrast(96%);
+}
+
 .cabecalho__pesquisa {
     width: 392px;
     height: 40px;
@@ -19,11 +27,16 @@
     border-radius: 20px;
     outline: none;
     border: none;
+    color: var(--cinza-texto);
     background-color: #F5F5F5;
     background-image: url(../../img/Cabecalho/search.svg);
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: center;
+}
+
+.cabecalho__pesquisa::-webkit-search-cancel-button {
+    display: none;
 }
 
 .cabecalho__banner {

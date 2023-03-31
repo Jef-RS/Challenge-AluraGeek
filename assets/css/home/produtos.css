@@ -16,10 +16,13 @@
     gap: 12px;
 }
 
-
+.produtos__conteudo {
+    display: flex;
+    padding: 0 5.2rem;
+}
 .produtos__conteudo__container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .produtos__conteudo__link {

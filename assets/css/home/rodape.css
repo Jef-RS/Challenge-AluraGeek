@@ -52,6 +52,7 @@
     padding: 13px 8px;
     border-radius: 4px;
     outline: none;
+    color: var(--cinza-texto);
 }
 
 .secao__contato__botao {
