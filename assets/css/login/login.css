@@ -28,3 +28,16 @@
 .login__formulario__botao {
     padding: 16px;
 }
+
+@media screen and (max-width: 280px) {
+    .login__formulario {
+        align-items: center;
+    }
+    .login__formulario__input {
+        width: 80vw;
+    }
+
+    .login__formulario__botao {
+        width: 90vw;
+    }
+}
