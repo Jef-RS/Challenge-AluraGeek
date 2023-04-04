@@ -40,3 +40,14 @@
 .formulario__botao {
     padding: 16px;
 }
+
+@media screen and (max-width: 360px) {
+    .formulario__produto {
+        width: 90vw;
+       
+    }
+
+    .formulario__label {
+        font-size: 24px;
+    }
+}

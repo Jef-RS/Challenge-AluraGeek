@@ -23,11 +23,10 @@
     <main class="formulario">
         <form class="formulario__produto">
             <label class="formulario__label">Editar produto</label>
-            <input class="formulario__input" type="text" autofocus placeholder="URL da imagem">
-            <input class="formulario__input" type="text" placeholder="Categoria">
-            <input class="formulario__input" type="text" placeholder="Nome do produto">
-            <input class="formulario__input" type="text" placeholder="Preço do produto">
-            <textarea class="formulario__textarea" placeholder="Descrição do produto" id="" cols="30" rows="10"></textarea>
+            <input class="formulario__input" type="text" autofocus placeholder="URL da imagem" data-url>
+            <input class="formulario__input" type="text" placeholder="Nome do produto" data-nome-produto>
+            <input class="formulario__input" type="text" placeholder="Preço do produto" data-preco>
+            <textarea class="formulario__textarea" placeholder="Descrição do produto" id="" cols="30" rows="10" data-descricao></textarea>
             <input class="formulario__botao botao__azul--light" type="submit" value="Alterar produto">
         </form>
     </main>
@@ -50,7 +49,7 @@
                     <label class="secao__contato__label" for="Nome">Fale Conosco</label>
                     <input class="secao__contato__nome" type="text" placeholder="Nome">
                     <textarea class="secao__contato__mensagem" placeholder="Escreva sua mensagem." id="textarea" cols="30" rows="10"></textarea>
-                    <input class="secao__contato__botao botao__azul--light" type="submit" value="Enviar mensagem">
+                    <input class="secao__contato__botao botao__azul--light botao__azul--bold" type="submit" value="Enviar mensagem">
                 </form>
             </div>
         </section>
@@ -62,6 +61,6 @@
         </section>
     </footer>
 
-    <script src="./assets/js/campo-editar-produtos.js"></script>
+    <script type="module" src="./assets/js/campo-editar-produtos.js"></script>
 </body>
 </html>

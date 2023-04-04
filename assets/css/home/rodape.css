@@ -89,3 +89,51 @@
     padding-left: 25px;
     color: var(--branco-texto);
 }
+
+@media screen and (max-width: 360px) {
+    .secao__contato__container {
+        padding: 30px 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .secao__contato__container img {
+        margin: 0 auto;
+    }
+
+    .secao__contato__sobre {
+        padding: 10px;
+        width: 90vw;
+        text-align: center;
+    }
+
+    .secao__contato__formulario {
+        padding: 10px;
+    }
+
+
+    .secao__contato__nome,
+    .secao__contato__mensagem {
+        width: 85vw;
+    }
+
+    .secao__contato__botao {
+        padding: 15px;
+    }
+
+    .secao__copyright__container {
+        padding: 15px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .secao__contato__container {
+        padding: 1rem 2rem;
+    }
+
+    .secao__contato__sobre {
+        padding: 0 20px;
+    }
+}

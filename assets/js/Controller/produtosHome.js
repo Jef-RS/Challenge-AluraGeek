@@ -9,7 +9,7 @@ const lista = (imagem, nome, preco, nomeLista, id) => {
 
     const conteudo = `
             <a class="produtos__conteudo__link" href="#">
-                <img class="produtos__conteudo__imagem" src="${imagem}" alt="Imagem de um produto da lista ${nomeLista}">
+                <img class="produtos__conteudo__imagem produto__imagem__base" src="${imagem}" alt="Imagem de um produto da lista ${nomeLista}">
                 <p class="produtos__texto">${nome}</p>
                 <p class="produtos__preco">${preco}</p>
                 <p class="links__azul">Ver produto</p>
@@ -41,4 +41,8 @@ export function produtosHome() {
             diversos.appendChild(lista(data.imagem, data.nome, data.preco, data.categoria, data.id))
         })
     })
+}
+
+export const listaConsoles = {
+    lista
 }

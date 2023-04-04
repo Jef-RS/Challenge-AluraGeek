@@ -6,33 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/home/cabecalho.css">
-    <link rel="stylesheet" href="./assets/css/formulario-produtos/formulario.css">
+    <link rel="stylesheet" href="./assets/css/home/produtos.css">
     <link rel="stylesheet" href="./assets/css/home/rodape.css">
-    <title>Adicionar produtos - AluraGeek</title>
+    <link rel="stylesheet" href="./assets/css/ver-consoles/consoles.css">
+    <title>Ver consoles - AluraGeek</title>
 </head>
 <body>
-    <header class="cabecalho">
-        <section class="cabecalho__principal">
-            <div class="cabecalho__principal__container">
-                <img class="cabecalho__principal__home" src="./assets/img/Cabecalho/Logo.svg" alt="Logo do site AluraGeek" data-home>
-                <input class="cabecalho__pesquisa" type="search" placeholder="O que deseja encontrar?" id="barra-pesquisa">
+    <section class="cabecalho__principal">
+        <div class="cabecalho__principal__container">
+            <img class="cabecalho__principal__home" src="./assets/img/Cabecalho/Logo.svg" alt="Logo do site AluraGeek" data-home>
+            <input class="cabecalho__pesquisa" type="search" placeholder="O que deseja encontrar?" id="barra-pesquisa">
+        </div>
+    </section>
+
+    <main class="consoles">
+        <section class="todos__consoles">
+            <div class="todos__consoles__container">
+                <h2>Consoles</h2>
+                <div class="produtos__conteudo">
+                    <div class="produtos__conteudo__container" data-lista-consoles>
+                    
+                </div>
             </div>
-            <input class="cabecalho__login botao__transparente--light botao__transparente--bold" type="submit" value="Menu administrador" data-botao-administrador>
         </section>
-    </header>
-
-    <main class="formulario">
-        <form class="formulario__produto" data-formulario>
-            <label class="formulario__label">Adicionar novo produto</label>
-            <input class="formulario__input" type="text" autofocus placeholder="URL da imagem" data-url>
-            <input class="formulario__input" type="text" placeholder="Categoria" data-categoria>
-            <input class="formulario__input" type="text" placeholder="Nome do produto" data-nome>
-            <input class="formulario__input" type="text" placeholder="Preço do produto" data-preco>
-            <textarea class="formulario__textarea" placeholder="Descrição do produto" id="" cols="30" rows="10" data-descricao></textarea>
-            <input class="formulario__botao botao__azul--light botao__azul--bold" type="submit" value="Adicionar produto">
-        </form>
     </main>
-
     <footer class="rodape">
         <section class="secao__contato">
             <div class="secao__contato__container">
@@ -63,7 +60,6 @@
         </section>
     </footer>
 
-    <script type="module" src="./assets/js/campo-adicionar-produto.js"></script>
-    <script src="https://github.com/codermarcos/simple-mask-money/releases/downloadv3.0.0/simple-mask-money.js"></script>
+    <script type="module" src="./assets/js/ver-consoles.js"></script>
 </body>
 </html>
