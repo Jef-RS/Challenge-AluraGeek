@@ -67,7 +67,7 @@ export function listaDeProdutos() {
             let id = divPrincipal.dataset.id;
             let categoria = divPrincipal.dataset.categoria;
 
-            location.href = `https://jef-rs.github.io/Challenge-AluraGeek/campo-editar-produtos.html?categoria=${categoria}&id=${id}`;
+            location.href = `../../campo-editar-produtos.html?categoria=${categoria}&id=${id}`;
         }
     })
 }

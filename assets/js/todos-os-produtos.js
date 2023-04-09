@@ -6,11 +6,11 @@ const home = document.querySelector('[data-home]');
 
 
 botao.addEventListener('click', ()=> {
-    location.href = 'https://jef-rs.github.io/Challenge-AluraGeek/campo-adicionar-produto.html'
+    location.href = '../../campo-adicionar-produto.html'
 })
 
 home.addEventListener('click', () => {
-    location.href = 'https://jef-rs.github.io/Challenge-AluraGeek/index.html';
+    location.href = '../../index.html';
 })
 
 

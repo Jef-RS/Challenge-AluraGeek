@@ -6,15 +6,15 @@ const formularioFooter = document.querySelector('[data-formulario-footer]');
 const verConsoles = document.querySelector('[data-ver-consoles]');
 
 verConsoles.addEventListener('click', () => {
-    location.href = 'https://jef-rs.github.io/Challenge-AluraGeek/ver-consoles.html';
+    location.href = '../../ver-consoles.html';
 })
 
 login.addEventListener('click', () => {
-    return location.href = 'https://jef-rs.github.io/Challenge-AluraGeek/login.html';
+    return location.href = '../../login.html';
 })
 
 home.addEventListener('click', () => {
-    location.href = 'https://jef-rs.github.io/Challenge-AluraGeek/index.html';
+    location.href = '../../index.html';
 })
 
 produtosHome();

@@ -4,10 +4,10 @@ const botaoADM = document.querySelector('[data-botao-administrador]');
 const home = document.querySelector('[data-home]');
 
 botaoADM.addEventListener('click', () => {
-    location.href = 'https://jef-rs.github.io/Challenge-AluraGeek/todos-os-produtos.html';
+    location.href = '../../todos-os-produtos.html';
 })
 home.addEventListener('click', () => {
-    location.href = 'https://jef-rs.github.io/Challenge-AluraGeek/index.html';
+    location.href = '../../index.html';
 })
 
 cadastraProdutos();
