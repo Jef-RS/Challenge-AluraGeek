@@ -23,4 +23,19 @@ export function editaProduto () {
             alert('Não foi possivel alterar o produtos')
         })
     })
+
+    const args = {
+        negativeSignAfter: false,
+        prefix: 'R$',
+        fixed: true,
+        fractionDigits: 2,
+        decimalSeparator: ',',
+        thousandsSeparator: '.',
+        currency: 'BRL',
+        cursor: 'end'
+      };
+
+      const input = SimpleMaskMoney.setMask('[data-preco]', args);
+    
+      input.formatToNumber();
 }

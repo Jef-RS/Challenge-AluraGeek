@@ -2,7 +2,7 @@ import { produtosHome } from './Controller/produtosHome.js';
 
 const login = document.querySelector('[data-login]');
 const home = document.querySelector('[data-home]');
-
+const formularioFooter = document.querySelector('[data-formulario-footer]');
 const verConsoles = document.querySelector('[data-ver-consoles]');
 
 verConsoles.addEventListener('click', () => {
