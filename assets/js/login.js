@@ -15,5 +15,5 @@ enviar.addEventListener('submit', (evento) => {
 })
 
 home.addEventListener('click', () => {
-    location.href = '../../home.html';
+    location.href = '../../index.html';
 })

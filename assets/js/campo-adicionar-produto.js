@@ -7,7 +7,7 @@ botaoADM.addEventListener('click', () => {
     location.href = '../../todos-os-produtos.html';
 })
 home.addEventListener('click', () => {
-    location.href = '../../home.html';
+    location.href = '../../index.html';
 })
 
 cadastraProdutos();
