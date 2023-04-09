@@ -10,7 +10,7 @@ botao.addEventListener('click', ()=> {
 })
 
 home.addEventListener('click', () => {
-    location.href = '../../index.html';
+    location.href = 'https://jef-rs.github.io/Challenge-AluraGeek/index.html';
 })
 
 

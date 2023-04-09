@@ -4,7 +4,7 @@ const home = document.querySelector('[data-home]');
 const Consoles = document.querySelector('[data-lista-consoles]');
 
 home.addEventListener('click', () => {
-    location.href = '../../index.html';
+    location.href = 'https://jef-rs.github.io/Challenge-AluraGeek/index.html';
 })
 
 const lista = (imagem, nome, preco, nomeLista, id, descricao) => {

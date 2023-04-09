@@ -15,5 +15,5 @@ enviar.addEventListener('submit', (evento) => {
 })
 
 home.addEventListener('click', () => {
-    location.href = '../../index.html';
+    location.href = 'https://jef-rs.github.io/Challenge-AluraGeek/index.html';
 })
