@@ -12,7 +12,7 @@ export function cadastraProdutos() {
     botaoFormulario.addEventListener('submit', (evento) => {
         evento.preventDefault();
         Cliente.criarProduto(imagem.value, nomeProduto.value, preco.value, descricao.value, categoria.value).then(() => {
-            location.href = '../../todos-os-produtos.html'
+            location.href = 'https://jef-rs.github.io/Challenge-AluraGeek/todos-os-produtos.html'
         })
     })
 

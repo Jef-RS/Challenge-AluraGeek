@@ -8,7 +8,7 @@ email.value = 'alurageek@alura.com';
 enviar.addEventListener('submit', (evento) => {
     evento.preventDefault()
     if(email.value === 'alurageek@alura.com' && senha.value == '1234') {
-        location.href = '../../todos-os-produtos.html';
+        location.href = 'https://jef-rs.github.io/Challenge-AluraGeek/todos-os-produtos.html';
     }else{
         alert('Email ou senha invalido, tente novamente.');
     }
