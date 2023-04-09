@@ -1,5 +1,5 @@
 const listaStarwars = () => {
-    return fetch('https://jef-rs.github.io/Challenge-AluraGeek/Starwars')
+    return fetch('http://localhost:3000/Starwars')
     .then(resposta => resposta.json())
 }
 
@@ -40,7 +40,7 @@ const editarProduto = (nome, preco, categoria, imagem, id, descricao) => {
 }
 
 const criarProduto = (imagem, nome, preco, descricao, categoria) => {
-    return fetch(`https://jef-rs.github.io/Challenge-AluraGeek/${categoria}`, {
+    return fetch(`http://localhost:3000/${categoria}`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json' 
