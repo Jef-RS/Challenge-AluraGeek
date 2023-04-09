@@ -1,0 +1,106 @@
+[
+    {
+      "nome": "Akjalksdjl",
+      "preco": "R$23",
+      "imagem": "./assets/img/Consoles/produto5.jpg",
+      "categoria": "Consoles",
+      "descricao": "asdasdasda",
+      "id": 1
+    },
+    {
+      "nome": "Nintendo Switch",
+      "preco": "R$231",
+      "imagem": "https://th.bing.com/th/id/OIP._Quv2DU7hQN2qAMG9s-CDgHaE8?pid=ImgDet&rs=1",
+      "categoria": "Consoles",
+      "descricao": "sdsdfsdf",
+      "id": 2
+    },
+    {
+      "nome": "Nintendo Switch",
+      "preco": "R$231",
+      "imagem": "https://th.bing.com/th/id/OIP._Quv2DU7hQN2qAMG9s-CDgHaE8?pid=ImgDet&rs=1",
+      "categoria": "Consoles",
+      "descricao": "werwer",
+      "id": 3
+    },
+    {
+      "nome": "Nintendo Switch",
+      "preco": "R$231",
+      "imagem": "https://th.bing.com/th/id/OIP._Quv2DU7hQN2qAMG9s-CDgHaE8?pid=ImgDet&rs=1",
+      "categoria": "Consoles",
+      "descricao": "sdfwer",
+      "id": 4
+    },
+    {
+      "nome": "Nintendo Switch",
+      "preco": "R$231",
+      "imagem": "https://th.bing.com/th/id/OIP._Quv2DU7hQN2qAMG9s-CDgHaE8?pid=ImgDet&rs=1",
+      "categoria": "Consoles",
+      "descricao": "sdfsdf",
+      "id": 5
+    },
+    {
+      "nome": "Nintendo Switch",
+      "preco": "R$231",
+      "imagem": "https://th.bing.com/th/id/OIP._Quv2DU7hQN2qAMG9s-CDgHaE8?pid=ImgDet&rs=1",
+      "categoria": "Consoles",
+      "descricao": "zxczc",
+      "id": 6
+    },
+    {
+      "nome": "Nintendo Switch",
+      "preco": "R$231",
+      "imagem": "https://th.bing.com/th/id/OIP._Quv2DU7hQN2qAMG9s-CDgHaE8?pid=ImgDet&rs=1",
+      "categoria": "Consoles",
+      "descricao": "gjhsdkjfhsjkdfhsjdk",
+      "id": 7
+    },
+    {
+      "nome": "Nintendo Switch",
+      "preco": "R$231",
+      "imagem": "https://th.bing.com/th/id/OIP._Quv2DU7hQN2qAMG9s-CDgHaE8?pid=ImgDet&rs=1",
+      "categoria": "Consoles",
+      "descricao": "sdfdsfsdfs",
+      "id": 8
+    },
+    {
+      "nome": "Nintendo Switch",
+      "preco": "R$231",
+      "imagem": "https://th.bing.com/th/id/OIP._Quv2DU7hQN2qAMG9s-CDgHaE8?pid=ImgDet&rs=1",
+      "categoria": "Consoles",
+      "descricao": "weffsdfwer",
+      "id": 9
+    },
+    {
+      "nome": "Nintendo Switch",
+      "preco": "R$231",
+      "imagem": "https://th.bing.com/th/id/OIP._Quv2DU7hQN2qAMG9s-CDgHaE8?pid=ImgDet&rs=1",
+      "categoria": "Consoles",
+      "descricao": "dsdfhjghj",
+      "id": 10
+    },
+    {
+      "nome": "Nintendo Switch",
+      "preco": "R$231",
+      "imagem": "https://th.bing.com/th/id/OIP._Quv2DU7hQN2qAMG9s-CDgHaE8?pid=ImgDet&rs=1",
+      "categoria": "Consoles",
+      "descricao": "erthfgjtyhjhasjdfhkjsadhfkjhaksjdhfkjhsajkdfhkjadshkfjahsjkfhkjsdhfkjshdfkjhasdjkfhsdkjfhsdjkfasdfa",
+      "id": 11
+    },
+    {
+      "nome": "Nintendo Switch",
+      "preco": "R$231",
+      "imagem": "https://th.bing.com/th/id/OIP._Quv2DU7hQN2qAMG9s-CDgHaE8?pid=ImgDet&rs=1",
+      "categoria": "Consoles",
+      "descricao": "wertgfdfsgfet",
+      "id": 12
+    },
+    {
+      "nome": "PS3",
+      "preco": "R$20.000,00",
+      "imagem": "https://th.bing.com/th/id/OIP.yWylPULJ4h0s9Tm9kyYaqwHaEL?pid=ImgDet&rs=1",
+      "categoria": "Consoles",
+      "descricao": "adasdad",
+      "id": 13
+    }
+  ]

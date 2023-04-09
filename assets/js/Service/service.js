@@ -1,27 +1,27 @@
 const listaStarwars = () => {
-    return fetch('http://localhost:3000/Starwars')
+    return fetch('https://jef-rs.github.io/Challenge-AluraGeek/Starwars.json')
     .then(resposta => resposta.json())
 }
 
 const listaConsoles = () => {
-    return fetch('http://localhost:3000/Consoles')
+    return fetch('https://jef-rs.github.io/Challenge-AluraGeek/Consoles.json')
     .then(resposta => resposta.json())
 }
 
 const listaDiversos = () => {
-    return fetch('http://localhost:3000/Diversos')
+    return fetch('https://jef-rs.github.io/Challenge-AluraGeek/Diversos.json')
     .then(resposta => resposta.json())
 }
 
 
 const removeLista = (id, categoria) => {
-    return fetch(`http://localhost:3000/${categoria}/${id}`, {
+    return fetch(`https://jef-rs.github.io/Challenge-AluraGeek/${categoria}/${id}`, {
         method: 'DELETE'
     })
 }
 
 const editarProduto = (nome, preco, categoria, imagem, id, descricao) => {
-    return fetch(`http://localhost:3000/${categoria}/${id}`, {
+    return fetch(`https://jef-rs.github.io/Challenge-AluraGeek/${categoria}/${id}`, {
         method: 'PUT',
         headers: {
             'content-type' : 'application/json'
@@ -40,7 +40,7 @@ const editarProduto = (nome, preco, categoria, imagem, id, descricao) => {
 }
 
 const criarProduto = (imagem, nome, preco, descricao, categoria) => {
-    return fetch(`http://localhost:3000/${categoria}`, {
+    return fetch(`https://jef-rs.github.io/Challenge-AluraGeek/${categoria}`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json' 

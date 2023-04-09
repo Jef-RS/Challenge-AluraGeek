@@ -1,0 +1,74 @@
+[
+    {
+      "nome": "JHkjahsd",
+      "preco": "R$237",
+      "imagem": "./assets/img/StarWars/produto2.jpg",
+      "categoria": "Starwars",
+      "descricao": "",
+      "id": 1
+    },
+    {
+      "imagem": "./assets/img/StarWars/produto6.jpg",
+      "nome": "jhasjkadshkjash",
+      "preco": "R$3434",
+      "descricao": "",
+      "categoria": "Starwars",
+      "id": 2
+    },
+    {
+      "nome": "JHkjahsd",
+      "preco": "R$237",
+      "imagem": "./assets/img/StarWars/produto3.jpg",
+      "categoria": "Starwars",
+      "descricao": "",
+      "id": 3
+    },
+    {
+      "nome": "JHkjahsd",
+      "preco": "R$237",
+      "imagem": "./assets/img/StarWars/produto4.jpg",
+      "categoria": "Starwars",
+      "descricao": "",
+      "id": 4
+    },
+    {
+      "nome": "JHkjahsd",
+      "preco": "R$237",
+      "imagem": "./assets/img/StarWars/produto5.jpg",
+      "categoria": "Starwars",
+      "descricao": "",
+      "id": 5
+    },
+    {
+      "nome": "JHkjahsd",
+      "preco": "R$237",
+      "imagem": "./assets/img/StarWars/produto1.jpg",
+      "categoria": "Starwars",
+      "descricao": "",
+      "id": 6
+    },
+    {
+      "imagem": "https://th.bing.com/th/id/R.ec8efb0c93fa2b11698a6cee5db566c2?rik=JtcJoaZNbFMPBw&pid=ImgRaw&r=0",
+      "nome": "sjkshdjkashk",
+      "preco": "R$8237",
+      "descricao": "jkshkjdhfkjsdf",
+      "categoria": "Starwars",
+      "id": 7
+    },
+    {
+      "imagem": "https://th.bing.com/th/id/OIP.Kkt5KM0RFWwL-rYnywggYgHaHa?pid=ImgDet&rs=1",
+      "nome": "AKJjaksdhkj",
+      "preco": "R$2392",
+      "descricao": "",
+      "categoria": "Starwars",
+      "id": 8
+    },
+    {
+      "imagem": "https://th.bing.com/th/id/R.172a57117532c28abd9abd052a2a68dc?rik=kxm1%2bv5C5CiZfw&pid=ImgRaw&r=0",
+      "nome": "Aagsasd",
+      "preco": "R$2342",
+      "descricao": "",
+      "categoria": "Starwars",
+      "id": 9
+    }
+  ]
