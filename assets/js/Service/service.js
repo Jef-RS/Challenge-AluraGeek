@@ -15,13 +15,13 @@ const listaDiversos = () => {
 
 
 const removeLista = (id, categoria) => {
-    return fetch(`https://jef-rs.github.io/Challenge-AluraGeek/${categoria}/${id}`, {
+    return fetch(`https://jef-rs.github.io/Challenge-AluraGeek/${categoria}.json/${id}`, {
         method: 'DELETE'
     })
 }
 
 const editarProduto = (nome, preco, categoria, imagem, id, descricao) => {
-    return fetch(`https://jef-rs.github.io/Challenge-AluraGeek/${categoria}/${id}`, {
+    return fetch(`https://jef-rs.github.io/Challenge-AluraGeek/${categoria}.json/${id}`, {
         method: 'PUT',
         headers: {
             'content-type' : 'application/json'
@@ -40,7 +40,7 @@ const editarProduto = (nome, preco, categoria, imagem, id, descricao) => {
 }
 
 const criarProduto = (imagem, nome, preco, descricao, categoria) => {
-    return fetch(`https://jef-rs.github.io/Challenge-AluraGeek/${categoria}`, {
+    return fetch(`https://jef-rs.github.io/Challenge-AluraGeek/${categoria}.json`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json' 
