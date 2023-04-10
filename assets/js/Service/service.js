@@ -1,27 +1,27 @@
 const listaStarwars = () => {
-    return fetch('http://localhost:3000/Starwars')
+    return fetch('https://my-json-server.typicode.com/Jef-RS/Challenge-AluraGeek/Starwars')
     .then(resposta => resposta.json())
 }
 
 const listaConsoles = () => {
-    return fetch('http://localhost:3000/Consoles')
+    return fetch('https://my-json-server.typicode.com/Jef-RS/Challenge-AluraGeek/Consoles')
     .then(resposta => resposta.json())
 }
 
 const listaDiversos = () => {
-    return fetch('http://localhost:3000/Diversos')
+    return fetch('https://my-json-server.typicode.com/Jef-RS/Challenge-AluraGeek/Diversos')
     .then(resposta => resposta.json())
 }
 
 
 const removeLista = (id, categoria) => {
-    return fetch(`http://localhost:3000/${categoria}/${id}`, {
+    return fetch(`https://my-json-server.typicode.com/Jef-RS/Challenge-AluraGeek/${categoria}/${id}`, {
         method: 'DELETE'
     })
 }
 
 const editarProduto = (nome, preco, categoria, imagem, id, descricao) => {
-    return fetch(`http://localhost:3000/${categoria}/${id}`, {
+    return fetch(`https://my-json-server.typicode.com/Jef-RS/Challenge-AluraGeek/${categoria}/${id}`, {
         method: 'PUT',
         headers: {
             'content-type' : 'application/json'
@@ -40,7 +40,7 @@ const editarProduto = (nome, preco, categoria, imagem, id, descricao) => {
 }
 
 const criarProduto = (imagem, nome, preco, descricao, categoria) => {
-    return fetch(`http://localhost:3000/${categoria}`, {
+    return fetch(`https://my-json-server.typicode.com/Jef-RS/Challenge-AluraGeek/${categoria}`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json' 

@@ -18,7 +18,7 @@ export function editaProduto () {
     
         Cliente.editarProduto(nomeProduto.value, preco.value, categoria, imagem.value, id, descricao.value)
         .then(() => {
-            location.href = '../../todos-os-produtos.html'
+            location.href = 'todos-os-produtos.html'
         }).catch(() => {
             alert('Não foi possivel alterar o produtos')
         })

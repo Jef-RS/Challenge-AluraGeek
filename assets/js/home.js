@@ -6,7 +6,7 @@ const formularioFooter = document.querySelector('[data-formulario-footer]');
 const verConsoles = document.querySelector('[data-ver-consoles]');
 
 verConsoles.addEventListener('click', () => {
-    location.href = '../../ver-consoles.html';
+    location.href = 'ver-consoles.html';
 })
 
 login.addEventListener('click', () => {
@@ -14,7 +14,7 @@ login.addEventListener('click', () => {
 })
 
 home.addEventListener('click', () => {
-    location.href = '../../index.html';
+    location.href = 'index.html';
 })
 
 produtosHome();

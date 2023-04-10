@@ -6,11 +6,11 @@ const home = document.querySelector('[data-home]');
 
 
 botao.addEventListener('click', ()=> {
-    location.href = '../../campo-adicionar-produto.html'
+    location.href = 'campo-adicionar-produto.html'
 })
 
 home.addEventListener('click', () => {
-    location.href = '../../index.html';
+    location.href = 'index.html';
 })
 
 
