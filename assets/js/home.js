@@ -10,7 +10,7 @@ verConsoles.addEventListener('click', () => {
 })
 
 login.addEventListener('click', () => {
-    return location.href = '../../login.html';
+    return location.href = 'login.html';
 })
 
 home.addEventListener('click', () => {
