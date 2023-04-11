@@ -1,27 +1,27 @@
 const listaStarwars = () => {
-    return fetch('https://geekapi.jefersonrodrig6.repl.co/Starwars')
+    return fetch('http://jef035.pythonanywhere.com/Starwars')
     .then(resposta => resposta.json())
 }
 
 const listaConsoles = () => {
-    return fetch('https://geekapi.jefersonrodrig6.repl.co/Consoles')
+    return fetch('http://jef035.pythonanywhere.com/Consoles')
     .then(resposta => resposta.json())
 }
 
 const listaDiversos = () => {
-    return fetch('https://geekapi.jefersonrodrig6.repl.co/Diversos')
+    return fetch('http://jef035.pythonanywhere.com/Diversos')
     .then(resposta => resposta.json())
 }
 
 
 const removeLista = (id, categoria) => {
-    return fetch(`https://geekapi.jefersonrodrig6.repl.co/${categoria}/${id}`, {
+    return fetch(`http://jef035.pythonanywhere.com/${categoria}/${id}`, {
         method: 'DELETE'
     })
 }
 
 const editarProduto = (nome, preco, categoria, imagem, id, descricao) => {
-    return fetch(`https://geekapi.jefersonrodrig6.repl.co/${categoria}/${id}`, {
+    return fetch(`http://jef035.pythonanywhere.com/${categoria}/${id}`, {
         method: 'PUT',
         headers: {
             'content-type' : 'application/json'
@@ -40,7 +40,7 @@ const editarProduto = (nome, preco, categoria, imagem, id, descricao) => {
 }
 
 const criarProduto = (imagem, nome, preco, descricao, categoria) => {
-    return fetch(`https://geekapi.jefersonrodrig6.repl.co/${categoria}`, {
+    return fetch(`http://jef035.pythonanywhere.com/${categoria}`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json' 
