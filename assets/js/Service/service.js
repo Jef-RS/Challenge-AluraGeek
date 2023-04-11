@@ -1,27 +1,27 @@
 const listaStarwars = () => {
-    return fetch('http://jef035.pythonanywhere.com/Starwars')
+    return fetch('https://jef035.pythonanywhere.com/Starwars')
     .then(resposta => resposta.json())
 }
 
 const listaConsoles = () => {
-    return fetch('http://jef035.pythonanywhere.com/Consoles')
+    return fetch('https://jef035.pythonanywhere.com/Consoles')
     .then(resposta => resposta.json())
 }
 
 const listaDiversos = () => {
-    return fetch('http://jef035.pythonanywhere.com/Diversos')
+    return fetch('https://jef035.pythonanywhere.com/Diversos')
     .then(resposta => resposta.json())
 }
 
 
 const removeLista = (id, categoria) => {
-    return fetch(`http://jef035.pythonanywhere.com/${categoria}/${id}`, {
+    return fetch(`https://jef035.pythonanywhere.com/${categoria}/${id}`, {
         method: 'DELETE'
     })
 }
 
 const editarProduto = (nome, preco, categoria, imagem, id, descricao) => {
-    return fetch(`http://jef035.pythonanywhere.com/${categoria}/${id}`, {
+    return fetch(`https://jef035.pythonanywhere.com/${categoria}/${id}`, {
         method: 'PUT',
         headers: {
             'content-type' : 'application/json'
@@ -40,7 +40,7 @@ const editarProduto = (nome, preco, categoria, imagem, id, descricao) => {
 }
 
 const criarProduto = (imagem, nome, preco, descricao, categoria) => {
-    return fetch(`http://jef035.pythonanywhere.com/${categoria}`, {
+    return fetch(`https://jef035.pythonanywhere.com/${categoria}`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json' 
