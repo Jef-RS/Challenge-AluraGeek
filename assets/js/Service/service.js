@@ -1,27 +1,27 @@
 const listaStarwars = () => {
-    return fetch('https://my-json-server.typicode.com/Jef-RS/Challenge-AluraGeek/Starwars')
+    return fetch('https://geekapi.jefersonrodrig6.repl.co/Starwars')
     .then(resposta => resposta.json())
 }
 
 const listaConsoles = () => {
-    return fetch('https://my-json-server.typicode.com/Jef-RS/Challenge-AluraGeek/Consoles')
+    return fetch('https://geekapi.jefersonrodrig6.repl.co/Consoles')
     .then(resposta => resposta.json())
 }
 
 const listaDiversos = () => {
-    return fetch('https://my-json-server.typicode.com/Jef-RS/Challenge-AluraGeek/Diversos')
+    return fetch('https://geekapi.jefersonrodrig6.repl.co/Diversos')
     .then(resposta => resposta.json())
 }
 
 
 const removeLista = (id, categoria) => {
-    return fetch(`https://my-json-server.typicode.com/Jef-RS/Challenge-AluraGeek/${categoria}/${id}`, {
+    return fetch(`https://geekapi.jefersonrodrig6.repl.co/${categoria}/${id}`, {
         method: 'DELETE'
     })
 }
 
 const editarProduto = (nome, preco, categoria, imagem, id, descricao) => {
-    return fetch(`https://my-json-server.typicode.com/Jef-RS/Challenge-AluraGeek/${categoria}/${id}`, {
+    return fetch(`https://geekapi.jefersonrodrig6.repl.co/${categoria}/${id}`, {
         method: 'PUT',
         headers: {
             'content-type' : 'application/json'
@@ -40,7 +40,7 @@ const editarProduto = (nome, preco, categoria, imagem, id, descricao) => {
 }
 
 const criarProduto = (imagem, nome, preco, descricao, categoria) => {
-    return fetch(`https://my-json-server.typicode.com/Jef-RS/Challenge-AluraGeek/${categoria}`, {
+    return fetch(`https://geekapi.jefersonrodrig6.repl.co/${categoria}`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json' 
