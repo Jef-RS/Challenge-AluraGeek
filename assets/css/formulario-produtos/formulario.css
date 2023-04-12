@@ -26,6 +26,22 @@
     color: var(--cinza-texto);
 }
 
+.formulario__input:nth-child(3):hover {
+    cursor: pointer;
+    background-color: var(--azul-hover);
+    color: var(--branco-texto);
+    transition: 180ms all ease-in-out;
+}
+
+.formulario__input:nth-child(3):focus {
+    background-color: var(--azul-hover);
+    color: var(--branco-texto);
+}
+
+.formulario__option {
+    background-color: var(--azul-hover);
+}
+
 .formulario__textarea {
     height: 38px;
     border: none;

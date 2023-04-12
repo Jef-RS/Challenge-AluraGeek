@@ -25,7 +25,11 @@
         <form class="formulario__produto" data-formulario>
             <label class="formulario__label">Adicionar novo produto</label>
             <input class="formulario__input" type="text" autofocus placeholder="URL da imagem" data-url>
-            <input class="formulario__input" type="text" placeholder="Categoria" data-categoria>
+            <select class="formulario__input" data-categoria>
+                <option class="formulario__option" value="Starwars">Starwars</option>
+                <option class="formulario__option" value="Consoles">Consoles</option>
+                <option class="formulario__option" value="Diversos">Diversos</option>
+            </select>
             <input class="formulario__input" type="text" placeholder="Nome do produto" data-nome>
             <input class="formulario__input" type="text" placeholder="Preço do produto" data-preco>
             <textarea class="formulario__textarea" placeholder="Descrição do produto" id="" cols="30" rows="10" data-descricao></textarea>
