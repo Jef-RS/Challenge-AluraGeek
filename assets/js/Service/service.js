@@ -43,7 +43,7 @@ const criarProduto = (imagem, nome, preco, descricao, categoria) => {
     return fetch(`https://jef035.pythonanywhere.com/${categoria}`, {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json' 
+            'Content-Type': 'application/json'
         },
         body: JSON.stringify({
             imagem: imagem,

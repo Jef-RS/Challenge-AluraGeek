@@ -4,7 +4,6 @@ const produtosCompleto = document.querySelector('[data-produtos-completo]');
 
 const lista = (imagem, nome, preco, nomeLista, id, descricao) => {
     const elemento = document.createElement('div');
-    // elemento.classList.add('deletarConteudo');
 
     const conteudo = `
             <div class="produtos__completo__imagem__container produtos__conteudo__link">
