@@ -7,7 +7,6 @@ const preco = document.querySelector('[data-preco]');
 const descricao = document.querySelector('[data-descricao]');
 const nomeProduto = document.querySelector('[data-nome]');
 
-
 export function cadastraProdutos() {
     botaoFormulario.addEventListener('submit', (evento) => {
         evento.preventDefault();
