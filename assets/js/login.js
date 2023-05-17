@@ -4,6 +4,7 @@ const enviar = document.querySelector('[data-enviar]');
 const home = document.querySelector('[data-home]');
 
 email.value = 'alurageek@alura.com';
+senha.value = '1234';
 
 enviar.addEventListener('submit', (evento) => {
     evento.preventDefault()
